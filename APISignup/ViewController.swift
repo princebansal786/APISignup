@@ -9,7 +9,7 @@ class ViewController: UIViewController {
     }
     func fetchData()
     {
-        let parameters:[String:Any]=["email":"suvadeepdas91@gmail.com","password":"qwerty","flag":"1"]
+        let parameters:[String:Any]=["email":"princebansal786@gmail.com","password":"princebansal786","flag":"1"]
         APISignup.fetchData(url: "signup", parameters: parameters) { (jsonData) in
             let userModel = Mapper<User>().map(JSONObject: jsonData)
             print(userModel?.profile?.username ?? "")

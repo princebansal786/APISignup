@@ -26,7 +26,7 @@ class Profile: Mappable
     var country: String?
     var city: String?
     var address: String?
-    var flag: String?
+    var flag: Int?
     var birthday: String?
     var country_code: String?
     var postal_code: String?
