@@ -1,6 +1,23 @@
 import Foundation
 import ObjectMapper
-class User: Mappable
+class User: Mappable {
+    var statusCode: Int?
+    var msg: String?
+    var profile: Profile?
+    
+    required init?(map: Map){
+        statusCode <- map["status_code"]
+        msg <- map["msg"]
+        profile <- map["profile"]
+    }
+    
+    func mapping(map: Map){
+        statusCode <- map["status_code"]
+        msg <- map["msg"]
+        profile <- map["profile"]
+    }
+}
+class Profile: Mappable
 {
     var username: String?
     var email: String?
