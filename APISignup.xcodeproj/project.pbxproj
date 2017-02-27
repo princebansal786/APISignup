@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D9B2B021E5EFB9C005C7334 /* PersonalInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9B2B011E5EFB9C005C7334 /* PersonalInformationViewController.swift */; };
+		1D9B2B0D1E5FFCFE005C7334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9B2B0B1E5FFCFE005C7334 /* Main.storyboard */; };
 		1DF5723E1E5C5DF900E6F1AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF5723D1E5C5DF900E6F1AD /* AppDelegate.swift */; };
-		1DF572401E5C5DF900E6F1AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF5723F1E5C5DF900E6F1AD /* ViewController.swift */; };
-		1DF572431E5C5DF900E6F1AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF572411E5C5DF900E6F1AD /* Main.storyboard */; };
+		1DF572401E5C5DF900E6F1AD /* PersonalDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF5723F1E5C5DF900E6F1AD /* PersonalDetailsViewController.swift */; };
 		1DF572451E5C5DF900E6F1AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF572441E5C5DF900E6F1AD /* Assets.xcassets */; };
 		1DF572481E5C5DF900E6F1AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF572461E5C5DF900E6F1AD /* LaunchScreen.storyboard */; };
-		1DF572501E5C612500E6F1AD /* APIHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF5724F1E5C612500E6F1AD /* APIHandle.swift */; };
+		1DF572501E5C612500E6F1AD /* APISignup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF5724F1E5C612500E6F1AD /* APISignup.swift */; };
 		1DF572521E5C90A400E6F1AD /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF572511E5C90A400E6F1AD /* user.swift */; };
-		1DF572761E5D9DD100E6F1AD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF572751E5D9DD100E6F1AD /* SignUpViewController.swift */; };
 		1DF572781E5DA36B00E6F1AD /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF572771E5DA36B00E6F1AD /* SignInViewController.swift */; };
 		302B9DC6F509B1A0F9C7CECD /* Pods_APISignup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0731289B4B926B314BCE24 /* Pods_APISignup.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D9B2B011E5EFB9C005C7334 /* PersonalInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInformationViewController.swift; sourceTree = "<group>"; };
+		1D9B2B0C1E5FFCFE005C7334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DF5723A1E5C5DF900E6F1AD /* APISignup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APISignup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5723D1E5C5DF900E6F1AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1DF5723F1E5C5DF900E6F1AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1DF572421E5C5DF900E6F1AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DF5723F1E5C5DF900E6F1AD /* PersonalDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailsViewController.swift; sourceTree = "<group>"; };
 		1DF572441E5C5DF900E6F1AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DF572471E5C5DF900E6F1AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DF572491E5C5DF900E6F1AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DF5724F1E5C612500E6F1AD /* APIHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHandle.swift; sourceTree = "<group>"; };
+		1DF5724F1E5C612500E6F1AD /* APISignup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APISignup.swift; sourceTree = "<group>"; };
 		1DF572511E5C90A400E6F1AD /* user.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
-		1DF572751E5D9DD100E6F1AD /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		1DF572771E5DA36B00E6F1AD /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		1FDCF5C0CF940F7334768F29 /* Pods-APISignup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APISignup.release.xcconfig"; path = "Pods/Target Support Files/Pods-APISignup/Pods-APISignup.release.xcconfig"; sourceTree = "<group>"; };
 		51CC1C5E4A615DEA84E0DF95 /* Pods-APISignup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APISignup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APISignup/Pods-APISignup.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,13 +69,13 @@
 		1DF5723C1E5C5DF900E6F1AD /* APISignup */ = {
 			isa = PBXGroup;
 			children = (
+				1D9B2B0B1E5FFCFE005C7334 /* Main.storyboard */,
 				1DF5723D1E5C5DF900E6F1AD /* AppDelegate.swift */,
-				1DF5723F1E5C5DF900E6F1AD /* ViewController.swift */,
-				1DF572751E5D9DD100E6F1AD /* SignUpViewController.swift */,
+				1DF5723F1E5C5DF900E6F1AD /* PersonalDetailsViewController.swift */,
 				1DF572511E5C90A400E6F1AD /* user.swift */,
-				1DF572411E5C5DF900E6F1AD /* Main.storyboard */,
+				1D9B2B011E5EFB9C005C7334 /* PersonalInformationViewController.swift */,
 				1DF572771E5DA36B00E6F1AD /* SignInViewController.swift */,
-				1DF5724F1E5C612500E6F1AD /* APIHandle.swift */,
+				1DF5724F1E5C612500E6F1AD /* APISignup.swift */,
 				1DF572441E5C5DF900E6F1AD /* Assets.xcassets */,
 				1DF572461E5C5DF900E6F1AD /* LaunchScreen.storyboard */,
 				1DF572491E5C5DF900E6F1AD /* Info.plist */,
@@ -162,9 +162,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D9B2B0D1E5FFCFE005C7334 /* Main.storyboard in Resources */,
 				1DF572481E5C5DF900E6F1AD /* LaunchScreen.storyboard in Resources */,
 				1DF572451E5C5DF900E6F1AD /* Assets.xcassets in Resources */,
-				1DF572431E5C5DF900E6F1AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,21 +224,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DF572521E5C90A400E6F1AD /* user.swift in Sources */,
-				1DF572401E5C5DF900E6F1AD /* ViewController.swift in Sources */,
+				1DF572401E5C5DF900E6F1AD /* PersonalDetailsViewController.swift in Sources */,
 				1DF572781E5DA36B00E6F1AD /* SignInViewController.swift in Sources */,
-				1DF572501E5C612500E6F1AD /* APIHandle.swift in Sources */,
+				1DF572501E5C612500E6F1AD /* APISignup.swift in Sources */,
 				1DF5723E1E5C5DF900E6F1AD /* AppDelegate.swift in Sources */,
-				1DF572761E5D9DD100E6F1AD /* SignUpViewController.swift in Sources */,
+				1D9B2B021E5EFB9C005C7334 /* PersonalInformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1DF572411E5C5DF900E6F1AD /* Main.storyboard */ = {
+		1D9B2B0B1E5FFCFE005C7334 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1DF572421E5C5DF900E6F1AD /* Base */,
+				1D9B2B0C1E5FFCFE005C7334 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

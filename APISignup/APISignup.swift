@@ -1,11 +1,3 @@
-//
-//  APIHandle.swift
-//  APISignup
-//
-//  Created by Sierra 4 on 21/02/17.
-//  Copyright © 2017 codebrew. All rights reserved.
-//
-
 import Foundation
 import Alamofire
 class APISignup
@@ -17,8 +9,6 @@ class APISignup
                 if response.result.value != nil{
                     do{
                         let json : Any! = try JSONSerialization.jsonObject(with: response.data!, options: JSONSerialization.ReadingOptions.mutableContainers)
-                        
-                        
                         completionHandler(json)
                     }
                     catch {
@@ -32,8 +22,6 @@ class APISignup
                 break
             }
         }
-        
     }
-
 }
 
